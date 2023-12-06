@@ -1,0 +1,11 @@
+.block, .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+h3{font: 0.9rem "Fira Sans", sans-serif;
+text-align: left}
+img{
+width: 280px;
+height: 330px;
+margin: 10px 10px 10px 10px;}

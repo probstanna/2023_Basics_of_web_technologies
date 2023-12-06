@@ -1,0 +1,41 @@
+
+.form, .2name, .name, .date{
+display: flex;
+flex-wrap: wrap;
+align-content: stretch}
+p, button, input, select{
+     font: 1.0rem "Fira Sans", sans-serif;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+    background-color: #FFFFF0;
+    padding: 30px;
+    font-size: 20px;
+}
+
+input[type=text], input[type=email], input[type=number], select, textarea{
+    padding: 10px;
+    width: 100%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: #FFD700;
+}
+
+input, select, textarea, label{
+    margin-bottom: 10px;
+}
+
+button[type=submit]{
+    padding: 12px 30px;
+    border: 2 px solid gray;
+    background-color: #FFD70;
+    color: black;
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+input, select, textarea{
+    margin-bottom: 18px;
+}
